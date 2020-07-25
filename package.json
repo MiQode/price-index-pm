@@ -1,0 +1,23 @@
+{
+  "name": "price-index-pm",
+  "version": "1.0.0",
+  "description": "Property Management Engine for Price Index Property Management Ltd.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "price",
+    "index"
+  ],
+  "author": "Mike Rembo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.25"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
